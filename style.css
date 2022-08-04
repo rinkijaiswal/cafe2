@@ -1,0 +1,381 @@
+body
+{
+	margin:0px;
+	padding: 0px;
+	background: #F5F5F5;
+}
+.poster
+{
+	height:655px;
+	width: 100%;
+	background-image:url('wp.jpg');
+	background-size: 1366px 655px;
+}
+.poster .navigation
+{
+	height:80px;
+	width: 100%;
+	background:transparent;
+	color:#ffffff;
+}
+.navigation img
+{
+	margin: 0px;
+	float: left;
+	padding-left: 20px;
+}
+.navigation p
+{
+	float: left;
+	margin: 0px;
+	padding-left: 245px;
+	padding-top: 20px;
+    font-size: 28px;
+}
+.navigation #first
+{
+	padding-left:30px;
+}
+.navigation #second
+{
+	padding-left: 300px;
+}
+.navigation a
+{
+	color:white;
+	text-decoration: none;
+}
+.poster .content
+{
+	height:655px;
+	width:100%;
+	background:rgba(0,0,0,0.4);
+	margin: 0px;
+}
+.content #logo
+{
+	margin-top: 60px;
+	margin-left: 400px;
+}
+.content #rest
+{
+	height:200px;
+	width: 150px;
+	color:white;
+	background-color:transparent;
+	text-align: center;
+	margin-left: 580px;
+}
+.content #rest p
+{
+	font-size: 20px;
+	border:1px solid white;
+}
+.content #rest h2
+{
+	font-size: 25px;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+}
+#rest a
+{
+   color:white;
+   text-decoration:none; 
+}
+#rest img
+{
+	color:white;
+}
+/*.anothernavigation
+{
+   height:80px;
+	width: 100%;
+	background:#F5F5F5;
+	color:#000000;  
+	display: none;
+}
+.anothernavigation img
+{
+	margin: 0px;
+	float: left;
+	padding-left: 20px;
+}
+.anothernavigation p
+{
+	float: left;
+	margin: 0px;
+	padding-left: 245px;
+	padding-top: 25px;
+    font-size: 28px;
+}
+.anothernavigation #first
+{
+	padding-left:30px;
+}
+.anothernavigation #second
+{
+	padding-left: 300px;
+}*/
+.story
+{
+	height:300px;
+	width: 100%;
+	background:#F5F5F5;
+	text-align:center;
+}
+.written
+{
+	height:200px;
+	width: 70%;
+	background: transparent;
+	margin-left:200px;
+	margin-top: 120px;
+}
+.written p
+{
+	padding-top:10px;
+	font-size: 20px;
+}
+.image1
+{
+	height:500px;
+	width:100%;
+	background-image:url("images1.jpg"); 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.meal
+{
+	height:600px;
+	width: 100%;
+	background:#F5F5F5;
+}
+.meal .left
+{
+	height: 400px;
+	width:22%;
+	background: transparent;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.left #gi
+{
+	margin-top: 50px;
+}
+.left button
+{
+	margin-top: 10px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:30px;
+	padding-right:30px;
+	border-radius:5px;
+	background-color:white;
+	outline:black;
+}
+.left input[type=date]
+{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left:30px;
+	padding-right:30px;
+	border-radius:5px;
+	color:grey;
+}
+.left input[type=text]
+{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left:16px;
+	padding-right:16px;
+	border-radius:5px;
+}
+.meal .middle
+{
+	height: 400px;
+	width:23%;
+	background:transparent;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.middle p
+{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.meal .right
+{
+	height: 400px;
+	width:23%;
+	background: transparent;
+	float: left;
+	margin-top: 50px;
+	margin-left:50px;
+}
+.meal .right p
+{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.meal .bottom
+{
+	height:80px;
+	width: 100%;
+	background: transparent;
+	position: absolute;
+	margin-top: 510px;
+}
+.bottom p
+{
+	text-align: center;
+	padding-top: 15px;
+}
+.images2
+{
+	height:500px;
+	width:100%;
+	background-image:url("images2.jpg"); 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.menu
+{
+	height:400px;
+	width: 100%;
+	background:transparent;
+	text-align: center;
+}
+.menu h3
+{
+   margin: 0px;
+   padding-top: 40px;
+   font-size: 25px;
+}
+.menu p
+{
+	font-size: 30px;
+	padding-top: 80px;
+}
+.menu pre
+{
+	font-size: 16px;
+	padding-top: 90px;
+}
+.images3
+{
+	height:450px;
+	width:100%;
+	background-image:url("images3.jpg"); 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.footer
+{
+   height:400px;
+   width: 100%;
+   background:#F5F5F5;
+}
+.footer .head
+{
+	color:white;
+	background: black;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+.footer .head img
+{
+	float: left;
+	margin-left:10px;
+	margin-top: 12px;
+}
+.footer .head p
+{
+	margin: 0px;
+	padding-top:15px;
+	float: left;
+	padding-left: 600px;
+}
+.head a
+{
+	text-decoration: none;
+	color: white; 
+}
+.footer .left
+{
+	height:250px;
+	width:150px;
+	margin-top: 30px;
+	margin-left: 20px;
+	background: transparent;
+	float: left;
+}
+.footer .left a
+{
+	text-decoration: none;
+	color:black;
+}
+.footer .middle
+{
+    height:250px;
+	width:150px;
+	margin-top: 30px;
+	margin-left:50px;
+	background:transparent;
+	float: left;
+}
+.footer .middle p
+{
+   margin-top: 28px;
+}
+.footer .middle #space
+{
+	margin-top: 0px;
+}
+.footer .middle a
+{
+	text-decoration: none;
+	color:black;
+}
+.footer .right
+{
+	float: right;
+	height:250px;
+	width: 420px;
+	margin-right: 50px;
+	margin-top: 30px;
+	background:transparent;
+}
+.footer .right input[type=text]
+{
+	padding-top:25px;
+	padding-bottom: 25px;
+	margin-left: 37px;
+	background:#F5F5F5;
+	border:none;
+	border-bottom:5px solid black;
+	outline: none;
+}
+::placeholder
+{
+	text-align:center;
+}
+.footer .right p
+{
+	margin: 0px;
+	padding-left: 40px;
+}
+.footer .last
+{
+	position: absolute;
+	height:80px;
+	width: 100%;
+	background:transparent;
+	margin-top:320px;
+}
